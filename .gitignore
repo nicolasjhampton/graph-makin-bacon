@@ -1,3 +1,8 @@
+# My ignore list
+cert.pem
+key.pem
+config.js
+
 # Logs
 logs
 *.log

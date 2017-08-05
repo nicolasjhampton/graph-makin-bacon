@@ -1,0 +1,35 @@
+{
+  "name": "graph-makin-bacon",
+  "version": "1.0.0",
+  "description": "Yet another implementation of my ultimate goal of making a multiplayer version of makin bacon, using graphql, express, mongo, react and redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasjhampton/graph-makin-bacon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasjhampton/graph-makin-bacon/issues"
+  },
+  "homepage": "https://github.com/nicolasjhampton/graph-makin-bacon#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-mongo": "^1.3.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.7",
+    "express-session": "^1.15.5",
+    "graphql": "^0.10.5",
+    "mongoose": "^4.11.5",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
