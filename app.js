@@ -72,7 +72,8 @@ app.get(
     "/auth/callback",
     passport.authenticate("google", { failureRedirect: "/auth" }),
     (req, res, next) => {
-        return res.redirect("/api");
+        res.cookie("auth", JSON.stringify(req.session.passport));
+        return res.redirect("http://localhost:3001");
     }
 );
 /** GraphQL API Endpoint */
